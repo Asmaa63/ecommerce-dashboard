@@ -127,9 +127,9 @@ export default function ProductsPage() {
   className="outline-none bg-transparent text-sm text-gray-700"
 >
   {categories.map((cat, idx) => (
-  <option key={idx} value={cat.slug}>
-    {cat.name}
-  </option>
+  <option key={idx} value={cat}>
+  {cat}
+</option>
 ))}
 </select>
             </div>
