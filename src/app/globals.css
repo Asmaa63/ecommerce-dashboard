@@ -1,7 +1,6 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
+@import "tailwindcss/preflight";
+@import "tailwindcss/utilities";
+@import "tailwindcss/components";
 
 @layer utilities {
   .animate-fadeIn {
